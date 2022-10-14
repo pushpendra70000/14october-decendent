@@ -1,0 +1,12 @@
+}
+.parent .child1{
+    width: 200px;
+    height: 200px;
+    background: green;
+    transform:rotate(45deg) ;
+    transform-origin:left top ;
+}
+
+.parent:hover .child1{
+    transform:rotate(45deg) ;
+}

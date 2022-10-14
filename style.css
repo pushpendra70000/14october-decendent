@@ -1,0 +1,110 @@
+.parent{
+    /*display: flex;*/
+    width: 400px;
+    height: 400px;
+    background: red;
+    margin: auto;
+    border: 1px solid black;
+    margin-top:200px ;
+    position: relative;
+}
+.parent .child1{
+    /*state1*/
+    width: 200px;
+    height: 200px;
+    background: green;
+    transform-origin: left top ;
+    transform:rotate(0deg);
+    transition-duration:2s ;
+    transition-timing-function: linear;
+    position: relative;
+}
+.parent .child2{
+    /*state1*/
+    width: 200px;
+    height: 200px;
+    background: blue;
+    transform-origin: left bottom ;
+    transform:rotate(0deg);
+    transition-duration: 2s ;
+    transition-timing-function: linear;
+}
+.parent .child3{
+    /*state1*/
+    width: 200px;
+    height: 200px;
+    background: purple;
+    transform-origin: right top ;
+    transform:rotate(0deg);
+    transition-duration: 2s ;
+    transition-timing-function: linear;
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+.parent .child4{
+    /*state1*/
+    width: 200px;
+    height: 200px;
+    background: black;
+    transform-origin: right bottom ;
+    transform:rotate(0deg);
+    transition-duration: 2s ;
+    transition-timing-function: linear;
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+}
+.parent:hover .child1,.parent:hover .child2 ,.parent:hover .child3 ,.parent:hover .child4{ 
+    transform:rotate(360deg);
+}
+
+.child11{
+    /*state1*/
+    width: 100px;
+    height: 100px;
+    background: yellow ;
+    transform-origin: left top ;
+    transform:rotate(0deg);
+    transition-duration: 2s ;
+    transition-timing-function: linear;
+}
+.child12{
+    /*state1*/
+    width: 100px;
+    height: 100px;
+    background: brown ;
+    transform-origin: left bottom ;
+    transform:rotate(0deg);
+    transition-duration: 2s ;
+    transition-timing-function: linear;
+}
+.child13{
+    /*state1*/
+    width: 100px;
+    height: 100px;
+    background: black ;
+    transform-origin: right top ;
+    transform:rotate(0deg);
+    transition-duration: 2s ;
+    transition-timing-function: linear;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+.child14{
+    /*state1*/
+    width: 100px;
+    height: 100px;
+    background: rgb(77, 50, 50) ;
+    transform-origin: right bottom ;
+    transform:rotate(0deg);
+    transition-duration: 2s ;
+    transition-timing-function: linear;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+.parent:hover .child11,.parent:hover .child12 ,.parent:hover .child13 ,.parent:hover .child14{ 
+    transform:rotate(360deg);
+}
